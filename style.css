@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+
+}
+
+
+header {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: medium;
+  color: lightgreen;
+}
+.logo span {
+  color: lightblue;
+}
+
+.navigation {
+    margin-left: 300px;
+}
+
+.navigation a {
+    font-size: medium;
+    color: lightsalmon;
+    margin-right: 30px;
+    text-decoration: 0;
+    font-weight: 400;
+    transition: .0s;
+}
+
+.navigation a:hover {
+    color: 0;
+}
+
+.home {
+    position: relative;
+    width: 100%; /* Mengatur tinggi gambar */
+    height: 115vh; /* Mengatur lebar gambar */
+    background: url('download.jpg'); /* Menambahkan gambar background */
+    background-size: cover; /* Mengatur size gambar */
+    background-position: center; /* Mengatur posisi gambar */
+    display: flex; /* Mengatur letak  */
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.content {
+    max-width: 500px;
+    color: black;
+}
+
+/* Mengatur ukuran heading 2 yang sudah didefiniskasn di HTML */
+.content h2 {
+    font-size: 48px;
+}
+.content h2 span{
+    color: lightseagreen;
+}
+
+.content h4 {
+    font-size: 34px;
+    /* Mengatur ukuran huruf h4 yang telah didefinisikan di HTML agar ukurannya lebih besar */
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+    /* Mengatur batas atas, bawah, kiri dan kanan */
+}
+
+/* Mengatur button */
+.button-container a{
+    color: lightcoral ;
+    text-decoration: solid white;
+    background-color: rgb(229, 208, 190);
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 2px lightgoldenrodyellow;
+    
+}
+/* Mengatur hover pada button Hire Me */
+.button-container a:hover:nth-child(1) {
+    color: palevioletred ;
+    background: transparent;
+}
+
+.button-container a:hover:nth-child(2) {
+    color:pink;
+    background: transparent;
+    }
+
+.button-container a:nth-child(2) {
+    color: peachpuff;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+
+.intro {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: left;
+}
+
+.button-container {
+  margin-top: 50px; /* kasih jarak dari paragraf */
+  display: flex;
+  gap: 20px; /* jarak antara tombol */
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #f8c8dc;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Mengatur posisi icon media sosial */
+.social-icons {
+    position: absolute;
+    bottom: 80px;
+    
+}
+.social-icons a {
+    display: inline-block;
+    background: darkcyan;
+    width: 35px; /* Mengatur lebar icon */
+    height: 35px; /* Mengatur tinggi icon */
+    line-height: 35px; /* Mengatur positi icon agar berada di tengah lingkaran */
+    text-align: center;
+    color: palegreen;
+    border-radius: 20px; /* Mengatur border agar berbentuk lingkaran */
+    border: 1px solid white;
+    outline: 2px plum;
+    margin-right: 30px;
+}
